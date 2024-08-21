@@ -1,0 +1,37 @@
+
+
+
+.border{
+    border: 1px solid black;
+}
+
+.parent{
+
+    width: 350px;
+    height: 200px;
+    background-color: wheat;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.child{
+    width:150px;
+    height:150px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+   
+}
+
+.parent >:nth-child(1){
+    background-color: aqua;
+}
+
+.parent >:nth-child(2){
+    background-color: brown;
+}
+
+.parent1{
+    margin-top: 40px;
+}
